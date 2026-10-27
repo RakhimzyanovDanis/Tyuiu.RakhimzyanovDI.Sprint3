@@ -9,7 +9,7 @@ namespace Tyuiu.RakhimzyanovDI.Sprint3.Task1.V19.Lib
             double multSeries = 1;
             while (startValue <= stopValue)
             {
-                multSeries *= (Math.Cos(value) + (startValue / 4));
+                multSeries *= Math.Cos(value) + startValue / 4.0;
                 startValue++;
                     
             }
