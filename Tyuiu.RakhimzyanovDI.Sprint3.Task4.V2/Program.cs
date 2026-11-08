@@ -6,7 +6,14 @@ namespace Tyuiu.RakhimzyanovDI.Sprint3.Task4.V2
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello, World!");
+            DataService ds = new DataService();
+
+            int startValue = -5;
+            int stopValue = 5;
+
+            Console.WriteLine(ds.Calculate(startValue, stopValue));
+            Console.ReadKey();
+
         } 
     }
 }
